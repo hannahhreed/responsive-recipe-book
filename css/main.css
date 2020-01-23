@@ -24,15 +24,6 @@ html {
   padding: 2.5em 7.5em;
 }
 
-.nav-logo img{
-  width: 15.625em;
-  margin-left: 0.813em;
-}
-
-.nav-links {
-  flex: 1;
-}
-
 .btn {
   padding: 0.225em 1.250em;
   border: 0;
