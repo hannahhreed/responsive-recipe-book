@@ -5,3 +5,16 @@ html {
   padding: 0;
   font-family: sans-serif;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cookies {
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ,url("../images/3.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
