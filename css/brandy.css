@@ -32,3 +32,213 @@ html {
 .nav-links {
   flex: 1;
 }
+
+.btn {
+  padding: 0.225em 1.250em;
+  border: 0;
+  background: black;
+  cursor: pointer;
+  margin-top: .5em;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.banner-title {
+  color: black;
+  margin-bottom: .1em;
+}
+
+.banner-title h1 {
+  font-family: sans-serif;
+  font-weight: 400em;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h2, h4 {
+  font-family: sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.1 rem;
+  color: black;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: black;
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+h5, p {
+  display: flex;
+}
+
+footer p {
+  color: #fff;
+}
+
+.recipe-img {
+  height: 40em;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: .5rem .25rem;
+  transition: background-color .5s ease;
+  padding-top: .3rem;
+}
+
+.footer:hover {
+  background-color: black;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.5rem;
+  margin-bottom: .5em;
+}
+
+@media (max-width: 43.750em) {
+  .vertical-bar {
+    display: none;
+  }
+  .banner-title {
+    margin: 5.000em 2.500em;
+    margin-bottom: .1em;
+  }
+  .banner-title h1 {
+    font-size: 3.125rem;
+  }
+  .nav-bar{
+    padding: 0.625em 1.875em;
+  }
+  .fa-bars{
+    position: absolute;
+    right: .1em;
+    top: 0.625em;
+  }
+  .nav-bar .fa{
+    display: block;
+    color: #fff;
+    margin: 0.625em 1.563em;
+    font-size: 1.375rem;
+    cursor: pointer;
+  }
+  .nav-links{
+    height: 100vh;
+    width: 12.500em;
+    background: #000;
+    top: 0;
+    right: -12.500em;
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  .nav-links ul a{
+    display: block;
+  }
+  .nav-links .btn{
+    float: none;
+    margin-left: 1.563em;
+    margin-top: 0.625em;
+  }
+
+  .nav-logo {
+    margin-top: .5em;
+  }
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .vertical-bar {
+    display: none;
+  }
+  .banner-title {
+    margin: 5.000em 2.500em;
+    margin-bottom: .1em;
+  }
+  .banner-title h1 {
+    font-size: 3.125rem;
+  }
+  .nav-bar{
+    padding: 0.625em 1.875em;
+  }
+  .fa-bars{
+    position: absolute;
+    right: 1.250em;
+    top: 0.625em;
+  }
+  .nav-bar .fa{
+    display: block;
+    color: #fff;
+    margin: 0.625em 1.563em;
+    font-size: 1.375rem;
+    cursor: pointer;
+  }
+  .nav-links{
+    height: 100vh;
+    width: 12.500em;
+    background: #000;
+    top: 0;
+    right: -12.500em;
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+    margin-right: .5em;
+  }
+  .nav-links ul a{
+    display: block;
+  }
+  .nav-links .btn{
+    float: none;
+    margin-left: 1.563em;
+    margin-top: 0.625em;
+  }
+  .nav-logo {
+    margin-left: 11em;
+    margin-top: .5em;
+  }
+}
+
+.number {
+  margin-right: 0.3em;
+  font-family: urbane, sans-serif;
+  font-weight: 700;
+}
+
+.servings {
+  font-family: urbane, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem
+}
