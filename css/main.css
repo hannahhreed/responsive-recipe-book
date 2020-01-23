@@ -60,3 +60,20 @@ html {
 .footer {
   float: right;
 }
+
+.nav a {
+  font-family: sans-serif;
+  padding: .375em .75em .42em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
