@@ -3,12 +3,19 @@ html {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  font-family: bureau-grot, sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "bureau grot", sans-serif;
+}
+
 
 .cookies {
   height: 100vh;
