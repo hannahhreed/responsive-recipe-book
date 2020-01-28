@@ -36,6 +36,11 @@ header {
   width: 100%;
 }
 
+footer {
+  background-color: #d8e9f3;
+  width: 100%;
+}
+
 .btn {
   padding: 0.225em 1.250em;
   border: 0;
